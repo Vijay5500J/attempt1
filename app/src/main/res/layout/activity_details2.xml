@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#ffffff" android:orientation="vertical">
+    -
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:weightSum="2">
+        -
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_weight="1">
+            <ImageView android:layout_width="match_parent" android:layout_height="100dp" android:background="@drawable/img"/>
+            <TextView android:id="@+id/details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="630 Sqft - 2 BHK Apartment Flat for Sale in Plot no.19,c,survey no.176/1/2,Harsul T.point, Aurangabad" android:textColor="#000000" android:textSize="18sp" android:textStyle="bold"/>
+            <TextView android:id="@+id/location" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Harsul T.point, Aurangabad" android:textColor="#a2000000" android:textSize="14sp" android:textStyle="normal" android:layout_marginLeft="2dp"/>
+            <TextView android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="On Aug 15 2018 by TEJAL BUILDERS and DEVELOPERS " android:textColor="#7e000000" android:textSize="14sp" android:textStyle="italic" android:layout_marginLeft="2dp" android:layout_marginBottom="2dp" android:layout_marginTop="2dp"/>
+        </LinearLayout>
+        -
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_weight="1">
+            -
+            <LinearLayout android:id="@+id/layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="#ffffff" android:orientation="horizontal" android:weightSum="2" android:layout_marginTop="20dp">
+                -
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:layout_weight="1" android:layout_marginLeft="5dp" android:layout_gravity="left">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="prz" android:textColor="#66000000" android:textSize="11sp" android:layout_marginTop="10dp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="28 lac" android:textColor="#000000" android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bedrooms" android:textColor="#66000000" android:textSize="11sp" android:layout_marginTop="10dp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2 BHK" android:textColor="#000000" android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Transaction" android:textColor="#66000000" android:textSize="11sp" android:layout_marginTop="10dp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="New" android:textColor="#000000" android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Available from" android:textColor="#66000000" android:textSize="11sp" android:layout_marginTop="10dp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="New" android:textColor="#000000" android:textSize="12sp"/>
+                </LinearLayout>
+                -
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:layout_weight="1" android:layout_marginLeft="5dp" android:layout_gravity="left">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Property" android:textColor="#66000000" android:textSize="11sp" android:layout_marginTop="10dp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Apartment/Flats" android:textColor="#000000" android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Build-up area" android:textColor="#66000000" android:textSize="11sp" android:layout_marginTop="10dp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 630 sq feet" android:textColor="#000000" android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Building Name" android:textColor="#66000000" android:textSize="11sp" android:layout_marginTop="10dp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tejal Pride" android:textColor="#000000" android:textSize="12sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Furnished" android:textColor="#66000000" android:textSize="11sp" android:layout_marginTop="10dp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Unfurnished" android:textColor="#000000" android:textSize="12sp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button android:id="@+id/btncontect2" android:layout_width="match_parent" android:layout_height="40dp" android:background="#7e737307" android:text="Contact Advertiser" android:textColor="#e2ff0000" android:layout_marginTop="20dp" android:layout_gravity="bottom"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/move1"
+                android:text="move"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
